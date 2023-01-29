@@ -164,8 +164,6 @@ img {
     margin-top: 130px;
 }
 
-
-
 .facts-title {
     width: 500px;
 }
@@ -215,18 +213,20 @@ img {
     justify-content: center;
     height: 400px;
     margin: 20px 0;
-    background-color: #f98a0b1a;;
+    background-color: #f98a0b1a;
+    ;
 }
-.new-input{
+
+.new-input {
     padding: 20px 25px;
     border: none;
     border-radius: 5px;
 }
 
 /* animation */
-.box:hover img{
-    transform: rotateY(150deg);
-    transition: transform 3s;
+.box:hover img {
+    transform: rotateY(360deg);
+    transition: transform 1s;
 }
 
 
@@ -253,72 +253,86 @@ img {
  -------------------------*/
 
 @media only screen and (max-width:668px) {
-/* banner css */
-.container {
-    width: 390px;
-}
-.header{
-    height: 100vh;
-}
-.header h1{
-    font-size: 30px;
-}
-.navbar {
-    flex-direction: column;
-}
-.menu-items{
-    margin: 0 auto;
-    flex-direction: column;
-}
 
-.banner-text {
-    width: 100%;
-}
+    /* banner css */
+    .container {
+        width: 390px;
+    }
 
-/* quick feature section */
-.quick-feature{
-    flex-direction: column-reverse;
-}
-.features-text{
-    margin-left: 0;
-}
-.img-gallery{
-    grid-template-columns: repeat(1, 330px);
-}
-/* service list */
-.service-list{
-    flex-direction: column;
-    align-items: flex-start;
-}
-.service-details{
-    width: 100%;
-    margin: 0;
-}
-.large-btn{
-    margin: 0 auto;
-}
+    .header {
+        height: 100vh;
+    }
 
-/* some facts section */
-.facts-title{
-    width: 100%;
-}
-.fact{
-    flex-direction: column;
-}
-.box{
-    margin: 20px auto;
-}
-/* sponsors section */
-.sponsors-text{
-    width: 90%;
-}
+    .header h1 {
+        font-size: 30px;
+    }
 
-.sponsors-img{
-    flex-direction: column;
-    align-items: center;
-}
-.sponsors-img img{
-    margin: 20px 0;
-}
+    .navbar {
+        flex-direction: column;
+    }
+
+    .menu-items {
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .banner-text {
+        width: 100%;
+    }
+
+    /* quick feature section */
+    .quick-feature {
+        flex-direction: column-reverse;
+    }
+
+    .features-text {
+        margin-left: 0;
+    }
+
+    .img-gallery {
+        grid-template-columns: repeat(1, 330px);
+    }
+
+    /* service list */
+    .service-list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .service-details {
+        width: 100%;
+        margin: 0;
+    }
+
+    .large-btn {
+        margin: 0 auto;
+    }
+
+    /* some facts section */
+    .facts-title {
+        width: 100%;
+    }
+
+    .fact {
+        flex-direction: column;
+    }
+
+    .box {
+        margin: 20px auto;
+    }
+
+    /* sponsors section */
+    .sponsors-text {
+        width: 90%;
+    }
+
+    .sponsors-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponsors-img img {
+        margin: 20px 0;
+    }
 
 }
